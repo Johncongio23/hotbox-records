@@ -1,12 +1,10 @@
+from flask import Flask, render_template
+
 app = Flask(__name__)
 
 @app.route('/')
-def home_alt():
-    return render_template('index.html')  # or whatever your home function returns
-
-@app.route('/about')
-def about():
-    return render_template('about.html')
+def home():
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
