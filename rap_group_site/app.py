@@ -9,16 +9,7 @@ GROUP_INFO = {
     "socials": {
         "youtube": "https://www.youtube.com/@HotBoxRecords1920",
         "instagram": "https://www.instagram.com/hotboxrecords1920/"
-    }
-}
-
-@app.route('/')
-def home():
-    return render_template("index.html", group=GROUP_INFO)
-
-if __name__ == '__main__':
-    app.run(debug=True)
-    };
+    },
     "members": [
         {
             "stage_name": "Tyler Charles",
@@ -84,8 +75,8 @@ if __name__ == '__main__':
     "tracks": [
         {
             "title": "SIMULA",
-            "artist": "EMENELL ft. Tyler Charles, Daniel, Psalm D",
-            "url": "https://youtu.be/3kHt4r3K8oA"
+            "artist": "EMENEL ft. Tyler Charles, Daniel, Psalm D",
+            "url": "https://youtu.be/3KHt4r3KBoA"
         },
         {
             "title": "Parang Abo Lang",
@@ -110,12 +101,12 @@ if __name__ == '__main__':
         {
             "title": "Eternal Love",
             "artist": "Don Co",
-            "url": "https://youtu.be/esPWprCVOmw?si=PaspUFIv-L80LoRv"
+            "url": "https://youtu.be/esPWprCVOmw?si=PaspUFIv-L8OLoRv"
         },
         {
             "title": "BEYOND THE BLOCK",
             "artist": "WAL ft. Petsanity",
-            "url": "https://youtu.be/Jrde2GelJ48"        
+            "url": "https://youtu.be/Jrde2GeLJ48"
         }
     ]
 }
