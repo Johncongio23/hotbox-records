@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Box Records</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="hero-section">
+        <video autoplay loop muted playsinline class="bg-video">
+            <source src="{{ url_for('static', filename='images/background.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <div class="hero-content">
+            <h1 class="main-title">HOT BOX RECORDS</h1>
+            <p class="tagline">INDEPENDENT HIP-HOP & MUSIC COLLECTIVE</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">ABOUT HBR</h2>
+        <div class="about-content">
+            <p>Hot Box Records (HBR) is an independent underground music collective driven by raw lyricism, versatile flows, and heavy production. Built from the ground up, HBR brings together sharp songwriters, vocalists, and sound engineers dedicated to pushing authentic hip-hop forward.</p>
+        </div>
+    </section>
+
+    <!-- Tracks / Music Section -->
+    <section id="tracks" class="tracks-section">
+        <h2 class="section-title">FEATURED TRACKS</h2>
+        <div class="tracks-grid">
+            <div class="track-card">
+                <iframe src="https://www.youtube.com/embed/gXpk2m0XEys" title="Featured Track 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="track-card">
+                <iframe src="https://www.youtube.com/embed/pdffbaSoW0c" title="Featured Track 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="track-card">
+                <iframe src="https://www.youtube.com/embed/tSzH5Xf7iJ4" title="Featured Track 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="track-card">
+                <iframe src="https://www.youtube.com/embed/7SwV90MKT0A" title="Featured Track 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="track-card">
+                <iframe src="https://www.youtube.com/embed/Jrde2GelJ48?" title="Featured Track 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="track-card">
+                <iframe src="https://www.youtube.com/embed/zBtdJuogFFk" title="Featured Track 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="track-card">
+                <iframe src="https://www.youtube.com/embed/dsPW4m4H6Xk" title="Featured Track 7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- Song 8 -->
+            <div class="track-card">
+                <iframe src="https://www.youtube.com/embed/kDjQWVTk__8" title="Featured Track 8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- Song 9 -->
+            <div class="track-card">
+                <iframe src="https://www.youtube.com/embed/3kHt4r3K8oA" title="Featured Track 9" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!-- New Song 10 -->
+            <div class="track-card">
+                <iframe src="https://www.youtube.com/embed/kO17IrV7DPU" title="Featured Track 10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roster Section -->
+    <section id="roster" class="roster-section">
+      <h2 class="section-title">HBR ROSTER</h2>
+      
+      <div class="roster-grid">
+        <!-- Tyler Charles -->
+        <div class="artist-card">
+          <div class="img-wrapper">
+            <img src="{{ url_for('static', filename='images/tyler_charles.jpg') }}" alt="Tyler Charles" class="artist-img">
+          </div>
+          <h3 class="artist-name">Tyler Charles</h3>
+          <p class="artist-role">ARTIST / LYRICIST</p>
+          <p class="artist-desc">Crafts sharp verses and reflective flows.</p>
+        </div>
+
+        <!-- WAL -->
+        <div class="artist-card">
+          <div class="img-wrapper">
+            <img src="{{ url_for('static', filename='images/wal.jpg') }}" alt="WAL" class="artist-img">
+          </div>
+          <h3 class="artist-name">WAL</h3>
+          <p class="artist-role">ARTIST / LYRICIST</p>
+          <p class="artist-desc">Delivers heavy punchlines and relentless cadence.</p>
+        </div>
+
+        <!-- EMENEL -->
+        <div class="artist-card">
+          <div class="img-wrapper">
+            <img src="{{ url_for('static', filename='images/emenel.jpg') }}" alt="EMENEL" class="artist-img">
+          </div>
+          <h3 class="artist-name">EMENEL</h3>
+          <p class="artist-role">ARTIST / LYRICIST</p>
+          <p class="artist-desc">Known for versatile delivery and high-energy hooks.</p>
+        </div>
+
+        <!-- Psalm D -->
+        <div class="artist-card">
+          <div class="img-wrapper">
+            <img src="{{ url_for('static', filename='images/psalm_d.jpg') }}" alt="Psalm D" class="artist-img">
+          </div>
+          <h3 class="artist-name">Psalm D</h3>
+          <p class="artist-role">ARTIST / LYRICIST</p>
+          <p class="artist-desc">Brings intricate rhyming patterns and deep storytelling.</p>
+        </div>
+
+        <!-- Daniel -->
+        <div class="artist-card">
+          <div class="img-wrapper">
+            <img src="{{ url_for('static', filename='images/daniel.jpg') }}" alt="Daniel" class="artist-img">
+          </div>
+          <h3 class="artist-name">Daniel</h3>
+          <p class="artist-role">ARTIST / LYRICIST</p>
+          <p class="artist-desc">Combines smooth cadences with heavy lyrical presence.</p>
+        </div>
+
+        <!-- Yusha -->
+        <div class="artist-card">
+          <div class="img-wrapper">
+            <img src="{{ url_for('static', filename='images/yusha.jpg') }}" alt="Yusha" class="artist-img">
+          </div>
+          <h3 class="artist-name">Yusha</h3>
+          <p class="artist-role">ARTIST / LYRICIST</p>
+          <p class="artist-desc">Adds dark melodic contrast and signature choruses.</p>
+        </div>
+
+        <!-- Don Co -->
+        <div class="artist-card">
+          <div class="img-wrapper">
+            <img src="{{ url_for('static', filename='images/don_co.jpg') }}" alt="Don Co" class="artist-img">
+          </div>
+          <h3 class="artist-name">Don Co</h3>
+          <p class="artist-role">SOUND ENGINEER</p>
+          <p class="artist-desc">Mastermind behind the crisp mix, low-end balance, and final audio master.</p>
+        </div>
+
+        <!-- JA -->
+        <div class="artist-card">
+          <div class="img-wrapper">
+            <img src="{{ url_for('static', filename='images/ja.jpg') }}" alt="JA" class="artist-img">
+          </div>
+          <h3 class="artist-name">JA</h3>
+          <p class="artist-role">ARTIST / LYRICIST</p>
+          <p class="artist-desc">Brings fast-paced flows and sharp hook construction.</p>
+        </div>
+
+        <!-- Krux -->
+        <div class="artist-card">
+          <div class="img-wrapper">
+            <img src="{{ url_for('static', filename='images/krux.jpg') }}" alt="Krux" class="artist-img">
+          </div>
+          <h3 class="artist-name">Krux</h3>
+          <p class="artist-role">ARTIST / LYRICIST</p>
+          <p class="artist-desc">Delivers gritty bars and relentless rhythm across beats.</p>
+        </div>
+
+        <!-- OG Huslah -->
+        <div class="artist-card">
+          <div class="img-wrapper">
+            <img src="{{ url_for('static', filename='images/og_huslah.jpg') }}" alt="OG Huslah" class="artist-img">
+          </div>
+          <h3 class="artist-name">OG Huslah</h3>
+          <p class="artist-role">ARTIST / LYRICIST</p>
+          <p class="artist-desc">Brings raw street poetry, heavy cadence, and veteran status.</p>
+        </div>
+      </div>
+    </section>
+
+</body>
+</html>
