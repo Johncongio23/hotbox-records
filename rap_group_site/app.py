@@ -5,7 +5,7 @@ app = Flask(__name__)
 GROUP_INFO = {
     "name": "HOTBOX RECORDS",
     "tagline": "Melodies. Hard Lyrics. Real Stories.",
-    "bio": "Formed in 2022, Hotbox Records brings new waves and heavy-hitting trap beats and melodies from the underground straight to the...",
+    "bio": "Formed in 2022, Hotbox Records brings new waves and heavy-hitting trap beats and melodies from the underground straight to the world.",
     "socials": {
         "youtube": "https://www.youtube.com/@HotBoxRecords1920",
         "instagram": "https://www.instagram.com/hotboxrecords1920/"
@@ -18,7 +18,6 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
-    },
     "members": [
         {
             "stage_name": "Tyler Charles",
