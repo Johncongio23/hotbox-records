@@ -1,7 +1,7 @@
 app = Flask(__name__)
 
 @app.route('/')
-def home():
+def home_alt():
     return render_template('index.html')  # or whatever your home function returns
 
 @app.route('/about')
