@@ -2,19 +2,22 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+GROUP_INFO = {
+    "name": "HOTBOX RECORDS",
+    "tagline": "Melodies. Hard Lyrics. Real Stories.",
+    "bio": "Formed in 2022, Hotbox Records brings new waves and heavy-hitting trap beats and melodies from the underground straight to the...",
+    "socials": {
+        "youtube": "https://www.youtube.com/@HotBoxRecords1920",
+        "instagram": "https://www.instagram.com/hotboxrecords1920/"
+    }
+}
+
 @app.route('/')
 def home():
     return render_template("index.html", group=GROUP_INFO)
 
 if __name__ == '__main__':
     app.run(debug=True)
-GROUP_INFO = {
-    "name": "HOTBOX RECORDS",
-    "tagline": "Melodies. Hard Lyrics. Real Stories.",
-    "bio": "Formed in 2022, Hotbox Records brings new waves and heavy-hitting trap beats and melodies from the underground straight to the main stage.",
-    "socials": {
-        "youtube": "https://www.youtube.com/@HotBoxRecords1920",
-        "instagram": "https://www.instagram.com/hotboxrecords1920/",
     },
     "members": [
         {
