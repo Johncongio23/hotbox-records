@@ -114,10 +114,7 @@ if __name__ == '__main__':
         {
             "title": "BEYOND THE BLOCK",
             "artist": "WAL ft. Petsanity",
-            "url": "https://youtu.be/Jrde2GelJ48"
-
-
-        
+            "url": "https://youtu.be/Jrde2GelJ48"        
         }
     ]
 }
